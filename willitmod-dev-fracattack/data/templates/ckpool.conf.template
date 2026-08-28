@@ -8,7 +8,7 @@
     }
   ],
   "btcaddress": "${PAYOUT_ADDRESS}",
-  "btcsig": "/FracAttack/",
+  "btcsig": "/Mined By Wvk88 on 5tratumOS/",
   "mindiff": 2048,
   "startdiff": 8192,
   "maxdiff": 1048576,
