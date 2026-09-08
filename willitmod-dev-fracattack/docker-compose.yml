@@ -2,6 +2,9 @@ version: "3.7"
 
 services:
   app_proxy:
+    image: getumbrel/app-proxy:v1.3.0
+    restart: on-failure
+    stop_grace_period: 30s
     environment:
       APP_HOST: fracattack-app
       APP_PORT: 3000
